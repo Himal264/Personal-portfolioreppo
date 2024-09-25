@@ -1,6 +1,7 @@
-import logo from "../assets/raviKumarLogo.webp"
+import { FaSquareXTwitter } from "react-icons/fa6";
 
-import { FaLinkedin, FaTwitter, FaInstagram, FaGithub, FaSquare } from 'react-icons/fa';
+
+import { FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa';
 
 
 const Navbar = () => {
@@ -12,25 +13,27 @@ const Navbar = () => {
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+        <a href="https://www.linkedin.com/in/
+         himalpachemagar
+         " target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn">
           <FaLinkedin />
         </a>
-        <a href="https://www.github.com/in/your-github-profile" target="_blank"
+        <a href="https://github.com/Himal264" target="_blank"
         rel="noopener noreferrer"
         aria-label="GitHub">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/in/your-instagram-profile" target="_blank"
+        <a href="https:www.instagram.com/himalpache/" target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram">
           <FaInstagram />
         </a>
-        <a href="https://www.twitter.com/in/your-twitter-profile" target="_blank"
+        <a href="https://x.com/PacheHimal" target="_blank"
         rel="noopener noreferrer"
         aria-label="Twitter">
-          <FaSquare/>
+          <FaSquareXTwitter/>
         </a>
       </div>
     </nav>

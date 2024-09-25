@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+977 9766453223",
-  email: "pachemagarhimal@.com",
+  address: "Kathmandu, 4600, Nepal",
+  phoneNo: "9766453223",
+  email: "pachemagarhimal@gmail.com",
 };
